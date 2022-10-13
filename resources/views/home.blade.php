@@ -37,7 +37,7 @@
               </a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="https://github.com/AlexmarJr/JN2">Codigo no Git</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="https://jn2-teste.herokuapp.com/">Site no Ar</a>
               </div>
             </li>
           </ul>
