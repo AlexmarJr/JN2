@@ -173,19 +173,6 @@
         $("#phone").mask("(99) 99999-999?9");
     });
 
-    $(function() {
-        var regExp = /[a-z]/i;
-        $('#license_plate_search').on('keydown keyup', function(e) {
-            var value = String.fromCharCode(e.which) || e.key;
-
-            // No letters
-            if (regExp.test(value)) {
-                e.preventDefault();
-                return false;
-            }
-        });
-    });
-
     function getRecords(filter) {
             let url = "api/client";
 
